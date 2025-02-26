@@ -23,13 +23,13 @@ Versão Atual: 1.0.4
 - Resolução mínima: 1024x768
 
 ## Instalação
-1. Baixe o instalador mais recente do [GitHub Releases](https://github.com/adfinfo/adf-system-manager/releases)
+1. Baixe o instalador mais recente do [GitHub Releases](https://github.com/ADFservice/adf-system-manager/releases)
 2. Execute o instalador e siga as instruções
 3. Inicie o ADF System Manager pelo atalho criado
 
 Para desenvolvedores:
 ```bash
-git clone https://github.com/adfinfo/adf-system-manager.git
+git clone https://github.com/ADFservice/adf-system-manager.git
 cd adf-system-manager
 pip install -r requirements.txt
 python main.py

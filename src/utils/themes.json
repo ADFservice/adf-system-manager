@@ -1,0 +1,70 @@
+{
+    "light": {
+        "window": {
+            "background": "#ffffff",
+            "text": "#000000"
+        },
+        "menu": {
+            "background": "#f0f0f0",
+            "text": "#000000",
+            "hover": "#e0e0e0"
+        },
+        "tab": {
+            "background": "#f5f5f5",
+            "text": "#000000",
+            "selected": "#ffffff",
+            "border": "#d0d0d0"
+        },
+        "button": {
+            "background": "#0078d4",
+            "text": "#ffffff",
+            "hover": "#006cbd",
+            "disabled": "#cccccc"
+        },
+        "input": {
+            "background": "#ffffff",
+            "text": "#000000",
+            "border": "#d0d0d0",
+            "placeholder": "#757575"
+        },
+        "status": {
+            "background": "#f0f0f0",
+            "text": "#000000",
+            "border": "#d0d0d0"
+        }
+    },
+    "dark": {
+        "window": {
+            "background": "#1e1e1e",
+            "text": "#ffffff"
+        },
+        "menu": {
+            "background": "#2d2d2d",
+            "text": "#ffffff",
+            "hover": "#3d3d3d"
+        },
+        "tab": {
+            "background": "#252525",
+            "text": "#ffffff",
+            "selected": "#1e1e1e",
+            "border": "#404040"
+        },
+        "button": {
+            "background": "#0078d4",
+            "text": "#ffffff",
+            "hover": "#006cbd",
+            "disabled": "#404040"
+        },
+        "input": {
+            "background": "#3c3c3c",
+            "text": "#ffffff",
+            "border": "#404040",
+            "placeholder": "#808080"
+        },
+        "status": {
+            "background": "#2d2d2d",
+            "text": "#ffffff",
+            "border": "#404040"
+        }
+    }
+} 

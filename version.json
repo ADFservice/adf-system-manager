@@ -1,0 +1,15 @@
+{
+    "version": "1.0.4",
+    "min_version": "1.0.0",
+    "required": false,
+    "download_url": "https://github.com/ADFservice/adf-system-manager/releases/download/v1.0.4/adf-system-manager.zip",
+    "release_notes": [
+        "Versão 1.0.4 do ADF System Manager",
+        "Melhorias:",
+        "- Novo ícone em alta resolução",
+        "- Interface aprimorada",
+        "- Melhorias nos relatórios",
+        "- Otimização de recursos",
+        "- Suporte a temas melhorado"
+    ]
+} 

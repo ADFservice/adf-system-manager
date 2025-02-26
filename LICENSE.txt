@@ -1,0 +1,33 @@
+CONTRATO DE LICENÇA DE SOFTWARE - ADF SYSTEM MANAGER
+
+Copyright (c) 2025 ADF Serviços de Informática
+Todos os direitos reservados.
+
+TERMOS E CONDIÇÕES:
+
+1. CONCESSÃO DE LICENÇA
+Este software é licenciado, não vendido. A ADF Serviços de Informática concede a você uma licença não exclusiva para usar este software.
+
+2. RESTRIÇÕES
+Você não pode:
+- Modificar, adaptar ou criar trabalhos derivados do software
+- Fazer engenharia reversa, descompilar ou desmontar o software
+- Remover ou alterar quaisquer avisos de direitos autorais
+- Transferir, sublicenciar ou alugar o software
+
+3. ATUALIZAÇÕES
+O software pode baixar e instalar atualizações automaticamente.
+
+4. COLETA DE DADOS
+O software pode coletar informações sobre o sistema para fins de diagnóstico e melhorias.
+
+5. GARANTIA
+O software é fornecido "como está", sem garantias de qualquer tipo.
+
+6. LIMITAÇÃO DE RESPONSABILIDADE
+Em nenhuma circunstância a ADF será responsável por quaisquer danos decorrentes do uso ou impossibilidade de uso do software.
+
+7. RESCISÃO
+Esta licença será rescindida automaticamente se você não cumprir seus termos e condições.
+
+Ao instalar o software, você concorda com estes termos. 

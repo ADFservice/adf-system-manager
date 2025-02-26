@@ -1,0 +1,53 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pyinstaller
+        
+    - name: Create executable
+      run: |
+        pyinstaller adf-system-manager.spec
+        
+    - name: Create ZIP archive
+      run: |
+        Compress-Archive -Path dist/adf/* -DestinationPath adf-system-manager.zip
+        
+    - name: Update version.json
+      run: |
+        $version = $env:GITHUB_REF -replace 'refs/tags/v', ''
+        $json = Get-Content version.json | ConvertFrom-Json
+        $json.version = $version
+        $json.download_url = "https://github.com/ADFservice/adf-system-manager/releases/download/v$version/adf-system-manager.zip"
+        $json | ConvertTo-Json -Depth 10 | Set-Content version.json
+        
+    - name: Create Release
+      id: create_release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          adf-system-manager.zip
+          version.json
+        body_path: CHANGELOG.md
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
