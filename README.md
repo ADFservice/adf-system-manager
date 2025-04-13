@@ -78,9 +78,8 @@ Para criar uma nova release:
 
 ## Suporte
 Para suporte técnico ou dúvidas:
-- Email: suporte@adfinfo.com.br
-- Site: https://www.adfinfo.com.br
-- Telefone: (11) 4444-4444
+- Email: adfservicosmarilia@gmail.comr
+
 
 ## Licença
 © 2024 ADF Serviços de Informática. Todos os direitos reservados. 
